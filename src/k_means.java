@@ -55,7 +55,7 @@ public class k_means {
 				close = clusters[0];
 				for(Cluster c: clusters)
 				{
-					if(smallest > c.distance(p))
+					if(smallest > c.distance(p)).
 					{
 						smallest = c.distance(p);
 						close = c;
